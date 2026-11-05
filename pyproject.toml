@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+["project"]
+name = "API data load"
+version = "1.0.0"
+description = "The package loads data from an API into desired file path"
+readme = "README.md"
+license = "LICENSE"
+python-requires = ">=3.6"
+
+[dependencies]
+dev = ["requests"]
+
+[project.optional-dependencies]
+
+[project.script]
+cli = "apiloader.main:main"
+
+[tool.hatchling.build.targets.wheel]
+packages = ["src/apiloader"]
