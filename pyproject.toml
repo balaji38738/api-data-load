@@ -18,5 +18,5 @@ dev = ["requests"]
 [project.script]
 cli = "apiloader.main:main"
 
-[tool.hatchling.build.targets.wheel]
+[tool.hatch.build.targets.wheel]
 packages = ["src/apiloader"]
