@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 ["project"]
-name = "API data load"
+name = "API-Data-Load"
 version = "1.0.0"
 description = "The package loads data from an API into desired file path"
 readme = "README.md"
