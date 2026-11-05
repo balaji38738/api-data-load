@@ -7,7 +7,7 @@ name = "API data load"
 version = "1.0.0"
 description = "The package loads data from an API into desired file path"
 readme = "README.md"
-license = "LICENSE"
+license = { text = "MIT" }
 python-requires = ">=3.6"
 
 [dependencies]
